@@ -1,11 +1,23 @@
-h1{
-  color: #000;
+h1 {
+	color: #000;
 }
 
-h1 span{
-  color: #037bc0;
+h1 span {
+	color: #037bc0;
 }
 
-h2 span{
-  color: green
+h2 span {
+	color: green;
+}
+
+nav a {
+	text-transform: uppercase;
+}
+
+.navegacion a {
+	background-color: red;
+}
+
+#navegacion a {
+	background-color: green;
 }
