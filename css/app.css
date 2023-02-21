@@ -1,3 +1,11 @@
+html{
+	box-sizing: border-box;
+}
+
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+
 h1 {
 	color: #000;
 }
@@ -6,18 +14,8 @@ h1 span {
 	color: #037bc0;
 }
 
-h2 span {
-	color: green;
-}
-
-nav a {
+.navegacion a{
+	color: #037bc0;
 	text-transform: uppercase;
 }
 
-.navegacion a {
-	background-color: red;
-}
-
-#navegacion a {
-	background-color: green;
-}
